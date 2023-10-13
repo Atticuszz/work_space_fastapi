@@ -18,6 +18,7 @@ def entries_sort_key(
     entry['slot'] = "19:00-20:00"
     big date,slot forward
     """
+    # print(entry)
     stat_time: list[int] = [0, 0]
     end_time: list[int] = [0, 0]
     clean_date: str = del_blank(entry["date"])

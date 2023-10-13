@@ -1,9 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from work_space.data_base.client import SupaBase
-from .routers.task_categories import router_task_categories
-from .routers.task_done_entries import router_task_entries
+from src.work_space.routers.task_categories import router_task_categories
+from src.work_space.routers.task_done_entries import router_task_entries
 
 
 def create_app() -> FastAPI:
@@ -31,7 +30,7 @@ def create_app() -> FastAPI:
 
 
 app = create_app()
-supabase_client = SupaBase()
+
 
 @app.on_event("startup")
 async def set_up():

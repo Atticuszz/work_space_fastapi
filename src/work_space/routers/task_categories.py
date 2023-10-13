@@ -1,30 +1,34 @@
 # coding=utf-8
 from fastapi import APIRouter
 
-from my_app.strapi_cmd_starter import strapi_restful
+from src.work_space.data_base.client import supabase_client
 
 router_task_categories = APIRouter()
 
 
 @router_task_categories.get("/get_all_task_category")
 async def get_all_task_category() -> dict:
-    page_data = await strapi_restful.send_get_request("task-category")
+    page_data = await supabase_client.get_table("single_page", columns=["category", "task", "location"])
     # pprint.pprint(page_data)
-    task_category = page_data['data']['attributes']['category']
+    task_category = page_data[0]
     return task_category
 
 
 # New route to delete a category
 
 
-@router_task_categories.delete("/update_category/{list_name}/{item}")
+@router_task_categories.put("/update_category/{list_name}")
 async def update_category(list_name: str, data: dict | None = None):
-    page_data = await strapi_restful.send_get_request("task-category")
-    existing_data = page_data['data']['attributes']['category']
-    if list_name in existing_data:
+    page_data = await supabase_client.get_table("single_page")
+    existing_data = page_data[0][list_name]
+    # print("existing_data:", existing_data)
+    # print("data:", data)
+    if list_name in page_data[0]:
         if data.get('add', None):
             existing_data.append(data['add'])
         else:
             existing_data.remove(data['remove'])
-    updated_data = await strapi_restful.send_post_request("update_task_category", existing_data)
+    page_data[0][list_name] = existing_data
+    # print("page_data:", page_data[0])
+    updated_data = await supabase_client.upsert("single_page", page_data[0])
     return updated_data
