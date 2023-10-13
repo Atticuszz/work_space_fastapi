@@ -66,10 +66,54 @@ def upsert_data():
     return data
 
 
+async def safe_upsert(item, retries=3):
+    for i in range(retries):
+        try:
+            await supabase_client.upsert(data=item, name="task_done_list")
+            return
+        except Exception as e:
+            print(f"An error occurred: {e}. Retrying... ({i + 1}/{retries})")
+            await asyncio.sleep(0.001)
+
+
+async def multi_requests(data: list):
+    # with open("test_data.json", "r") as f:
+    #     data = json.load(f)
+    chunk_size = 4000
+    for i in range(0, len(data), chunk_size):
+        chunk_data = data[i:i + chunk_size]
+        tasks = [
+            asyncio.ensure_future(
+                safe_delete(
+                    item["uuid"])) for item in chunk_data]
+        # tasks = [asyncio.ensure_future(safe_upsert(item))
+        # for item in chunk_data]
+        await asyncio.gather(*tasks)
+    return
+
+
+async def safe_delete(uuid: str, retries: int = 3):
+    for i in range(retries):
+        try:
+            await supabase_client.delete(uuid=uuid, name="task_done_list")
+            return
+        except Exception as e:
+            print(f"An error occurred: {e}. Retrying... ({i + 1}/{retries})")
+            await asyncio.sleep(0.001)
+    return
+
+
+async def data_2_del():
+    data = await supabase_client.get_table("task_done_list")
+    data.sort(
+        key=lambda x: x["createdAt"] if isinstance(
+            x["createdAt"],
+            str) else "")
+    data_2_del = data[34:]
+    await multi_requests(data_2_del)
+
+
 if __name__ == "__main__":
-    asyncio.run(transform2())
-    # asyncio.run(calculate_time(1000))
-    # asyncio.run(calculate_time(10000))
-    # asyncio.run(calculate_time(100000))
-    # asyncio.run(calculate_time(1000000))
-    # asyncio.run(calculate_time(10000000))
+    # asyncio.run(delete_items(), debug=True)
+    # asyncio.run(multi_requests())
+    asyncio.run(data_2_del())
