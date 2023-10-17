@@ -2,9 +2,9 @@
 
 from fastapi import APIRouter
 
-from src.work_space.data_base.client import supabase_client
-from src.work_space.model import TaskDoneEntry
-from src.work_space.tools import entries_sort_key
+from src.fastapi_app.data_base.client import supabase_client
+from src.fastapi_app.model import TaskDoneEntry
+from src.fastapi_app.tools import entries_sort_key
 
 router_task_entries = APIRouter()
 

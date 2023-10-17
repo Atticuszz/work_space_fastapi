@@ -1,7 +1,7 @@
 import asyncio
 import timeit
 
-from src.work_space.data_base.client import SupaBase
+from src.fastapi_app.data_base.client import SupaBase
 
 supabase_client = SupaBase()
 

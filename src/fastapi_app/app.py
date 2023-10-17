@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from src.work_space.routers.task_categories import router_task_categories
-from src.work_space.routers.task_done_entries import router_task_entries
+from src.fastapi_app.routers.task_categories import router_task_categories
+from src.fastapi_app.routers.task_done_entries import router_task_entries
 
 
 def create_app() -> FastAPI:
@@ -11,7 +11,7 @@ def create_app() -> FastAPI:
     # 设置 CORS
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["http://localhost:5173", "http://localhost:1337"],
+        allow_origins=["http://localhost:5173", "http://localhost:1337", "http://localhost:5050"],
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],

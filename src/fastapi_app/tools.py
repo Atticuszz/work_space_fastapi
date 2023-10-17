@@ -27,8 +27,8 @@ def entries_sort_key(
         int(digit) for digit in clean_date.split('-')]
     slot: list[str] = clean_slot.replace(
         '：', ':').split('-')
-    if len(slot):
-        stat_time = [int(digit) for digit in slot[0].split(':')]
+    if len(slot) and slot[0]:
+        stat_time = [int(digit) for digit in slot[0].split(':') if digit != '']
     elif len(slot) > 1:
         end_time = [int(digit) for digit in slot[1].split(':')]
     # print(date)

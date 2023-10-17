@@ -1,7 +1,7 @@
 # coding=utf-8
 from fastapi import APIRouter
 
-from src.work_space.data_base.client import supabase_client
+from src.fastapi_app.data_base.client import supabase_client
 
 router_task_categories = APIRouter()
 
