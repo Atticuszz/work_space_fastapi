@@ -7,6 +7,7 @@ class TaskDoneEntry(BaseModel):
     date: str
     category: list[str]
     task: list[str]
+    target: list[str]
     detail: str
     slot: str
-    location: str
+    location: list[str]

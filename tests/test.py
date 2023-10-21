@@ -1,4 +1,5 @@
 import asyncio
+import pprint
 import timeit
 
 from src.fastapi_app.data_base.client import SupaBase
@@ -27,34 +28,46 @@ async def calculate_time(n: int, funtion: callable, *args, **kwargs):
     return total_time, average_time
 
 
-def transform():
-    data = supabase_client.get_table("task_done_list")
-    keys = ['category', 'task']
-    for key in keys:
-        for item in data:
-            str_data = item[key].strip("'").replace("[", '').replace("]", '')
-            arr_data = str_data.split(',')
-            item[key] = arr_data
+async def init_new_filed():
+    data = await supabase_client.get_table("task_done_list")
+    # 根据detail字段分割成可以选择的内容，-1表示自己输入，-2表示不需要输入
+    # 将选择的内容追加进item的target字段，并且收集到收集表中
+    new_target = set()
+    for item in data:
+        if item.get('detail', None):
+            # 根据‘/n',' ' ,','分割
+            options = item['detail'].split('\n')
+            for i in range(len(options)):
+                print(i, ':', options[i])
+            op = input("请输入选项序号：")
+            if int(op) >= 0:
+                item['target'].append(options[int(op)])
+                new_target.add(options[int(op)])
+            elif op == '-1':
+                u_input = input("input your ：")
+                item['target'].append(u_input)
+                new_target.add(u_input)
 
-    # update
-    for i, item in enumerate(data):
-        print(f"updating {i + 1}/{len(data)}")
-        supabase_client.upsert("task_done_list", item)
+    # update task_done_list
+
+    # undate single_page
 
 
 async def transform2():
     data = await supabase_client.get_table("task_done_list")
-    keys = ['category', 'task']
-    for key in keys:
-        for item in data:
-            item[key] = [i.strip('"') for i in item[key]]
-    tasks = [
-        asyncio.ensure_future(
-            supabase_client.upsert(
-                "task_done_list",
-                item)) for item in data]
-    results = await asyncio.gather(*tasks)
-    print("done:", results)
+
+    # data transform
+    data_map = {
+        'category': 'categories',
+        'task': 'tasks',
+        'location': 'locations'}
+    for item in data:
+        for key in data_map:
+            if isinstance(item[key], str):
+                item[key] = item[key].split(',')
+            item[data_map[key]] = item[key]
+    pprint.pprint(data)
+    result = await multi_requests(data, "upsert")
 
 
 def upsert_data():
@@ -76,18 +89,23 @@ async def safe_upsert(item, retries=3):
             await asyncio.sleep(0.001)
 
 
-async def multi_requests(data: list):
+async def multi_requests(data: list, options: str):
     # with open("test_data.json", "r") as f:
     #     data = json.load(f)
     chunk_size = 4000
     for i in range(0, len(data), chunk_size):
         chunk_data = data[i:i + chunk_size]
-        tasks = [
-            asyncio.ensure_future(
-                safe_delete(
-                    item["uuid"])) for item in chunk_data]
-        # tasks = [asyncio.ensure_future(safe_upsert(item))
-        # for item in chunk_data]
+        match options:
+            case "upsert":
+                tasks = [asyncio.ensure_future(safe_upsert(item))
+                         for item in chunk_data]
+            case 'delete':
+                tasks = [
+                    asyncio.ensure_future(
+                        safe_delete(
+                            item["uuid"])) for item in chunk_data]
+            case _:
+                raise ValueError("options must be 'upsert' or 'delete'")
         await asyncio.gather(*tasks)
     return
 
@@ -113,7 +131,9 @@ async def data_2_del():
     await multi_requests(data_2_del)
 
 
+def main(func: callable, *args, **kwargs):
+    asyncio.run(func(*args, **kwargs))
+
+
 if __name__ == "__main__":
-    # asyncio.run(delete_items(), debug=True)
-    # asyncio.run(multi_requests())
-    asyncio.run(data_2_del())
+    main(init_new_filed)
