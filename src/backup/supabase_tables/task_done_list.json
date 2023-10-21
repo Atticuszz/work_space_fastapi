@@ -1,0 +1,1389 @@
+[
+  {
+    "slot": "11:20-13:10",
+    "detail": "\u5c1d\u8bd5\u4f7f\u7528supabase\u4f5c\u4e3afastapi\u7684\u6570\u636e\u5e93",
+    "uuid": "a8178679-afaa-41f2-9beb-1bc3237f3274",
+    "date": "2023-10-11",
+    "target": [
+      "work-space"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "python"
+    ]
+  },
+  {
+    "slot": "15:40-16:00",
+    "detail": "\u5b66\u4e60\u6cf0\u68ee\n\u7530\u5f84\u65e5\u5e38\u8bad\u7ec3",
+    "uuid": "999018a6-9df4-4600-9205-824f45eb74d3",
+    "date": "2023-10-11",
+    "target": [],
+    "location": [
+      "Dormitory",
+      "playground"
+    ],
+    "category": [
+      "PE"
+    ],
+    "task": [
+      "boxing",
+      "sprint"
+    ]
+  },
+  {
+    "slot": "19\uff1a40-20\uff1a30",
+    "detail": "\u91cd\u65b0\u8bbe\u8ba1\u6392\u5e8f\u89c4\u5f8b\n\u5148\u6309\u65e5\u671f\u540e\u6309\u65f6\u95f4",
+    "uuid": "7501e619-a0e6-47be-a1a0-4d5f9023152c",
+    "date": "2023-10-10",
+    "target": [
+      "work-space"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "python"
+    ]
+  },
+  {
+    "slot": "18\uff1a00-19\uff1a20",
+    "detail": "\u5c1d\u8bd5\u4f7f\u7528 poetry 3/3\u4f5c\u4e3apython\u865a\u62df\u73af\u5883\u548c\u5305\u7ba1\u7406\u5668\u2705\n\u5c06py-strapi \u548c strapi-client\u8bbe\u7f6e\u4e3apoetry\u73af\u5883\n\u5e76\u4e14\u8bb0\u5f55\u4e86\u5e38\u7528\u7684poetry\u547d\u4ee4\u5230obsidian",
+    "uuid": "7ec52d5c-1039-49d6-b85b-da5a68bf1f04",
+    "date": "2023-10-10",
+    "target": [
+      "py-env"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "python"
+    ]
+  },
+  {
+    "slot": "12\uff1a00- 15\uff1a00",
+    "detail": "\u5c1d\u8bd5\u4f7f\u7528 poetry 2/3\u4f5c\u4e3apython\u865a\u62df\u73af\u5883\u548c\u5305\u7ba1\u7406\u5668",
+    "uuid": "842f36cf-07ec-43be-b239-f7e90dba5d9d",
+    "date": "2023-10-10",
+    "target": [
+      "py-env"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "python"
+    ]
+  },
+  {
+    "slot": "9\uff1a50-11\uff1a00",
+    "detail": "\u7ebf\u6027\u8868\u7b97\u6cd5\u98984/5\n\n\u914d\u7f6eclion\u548c\u4e0b\u8f7d\u6559\u7a0b\u4ee3\u7801",
+    "uuid": "8ae0384d-78a6-4fbd-9e25-d69040f85f6c",
+    "date": "2023-10-12",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "DS"
+    ]
+  },
+  {
+    "slot": "18:00-20:00",
+    "detail": "\u5c1d\u8bd5\u4f7f\u7528 poetry 1/3\u4f5c\u4e3apython\u865a\u62df\u73af\u5883\u548c\u5305\u7ba1\u7406\u5668",
+    "uuid": "475a9329-dc5b-4ec4-87db-11c38ff01c80",
+    "date": "2023-10-9",
+    "target": [
+      "py-env"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "python"
+    ]
+  },
+  {
+    "slot": "8:00-9:40",
+    "detail": "\u7ebf\u6027\u8868\u7684\u7b97\u6cd5\u9898\u771f\u9898\n\u601d\u8def\u7f16\u5199\n",
+    "uuid": "d1c16151-a55d-4437-97e9-734301905a55",
+    "date": "2023-10-12",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "DS"
+    ]
+  },
+  {
+    "slot": "20\uff1a35-21\uff1a00",
+    "detail": "\u7eea\u8bba \n\u7f51\u8bfe",
+    "uuid": "5db3b59c-101b-4e1c-b739-5cf91efdf8de",
+    "date": "2023-10-10",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "DS"
+    ]
+  },
+  {
+    "slot": "15\uff1a30 - 17\uff1a00",
+    "detail": "\u5b9a\u70b9\u6570\u7684\u7f16\u7801\u8868\u793a\n\u5b8c\u6210\u5269\u4e0b\u7684\u4f5c\u4e1a1/2",
+    "uuid": "3f7cf388-d7e6-43ec-a1ff-33745d66eb50",
+    "date": "2023-10-10",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CO"
+    ]
+  },
+  {
+    "slot": "8:30",
+    "detail": "\u8d77\u5e8a",
+    "uuid": "3b15daec-63f6-40de-9945-c528711501db",
+    "date": "2023-10-9",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "get-up"
+    ]
+  },
+  {
+    "slot": "23:38",
+    "detail": null,
+    "uuid": "76bd5129-5f63-4bc3-b1b6-33cd6f141b88",
+    "date": "2023-10-11",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ]
+  },
+  {
+    "slot": "9\uff1a10-9:45",
+    "detail": "\u5b9a\u70b9\u6570\u7684\u7f16\u7801\u8868\u793a\n\u590d\u4e60\u4e864\u4e2d\u5b9a\u70b9\u6570\u7684\u7f16\u7801\u8868\u793a\u65b9\u5f0f\u4ee5\u53ca\u4e4b\u95f4\u7684\u76f8\u4e92\u8f6c\u6362\n\u7406\u89e3\u4e86\u4e3a\u4ec0\u4e484\u4e2d\u7f16\u7801\u65b9\u5f0f\u7684\u8868\u793a\u8303\u56f4\u662f\u4e3a\u4ec0\u4e48\uff1f",
+    "uuid": "6d1442ec-0280-421b-a20d-5b49edebdce4",
+    "date": "2023-10-10",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CO"
+    ]
+  },
+  {
+    "slot": "9\uff1a10 - 9\uff1a45",
+    "detail": "\u5b9a\u70b9\u6570\u7684\u7f16\u7801\u8868\u793a \n\u7f51\u8bfe\n",
+    "uuid": "51da1c6d-af74-4942-8b2d-fb4118b2fb20",
+    "date": "2023-10-9",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CO"
+    ]
+  },
+  {
+    "slot": "23:40",
+    "detail": "",
+    "uuid": "49c11b71-db6d-4bac-90fe-49bd49a61aa2",
+    "date": "2023-10-13",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ]
+  },
+  {
+    "slot": "13:40-17:00",
+    "detail": "\u4e60\u9898\n\u9ad8\u6570\u57fa\u7840\u90e8\u5206\n\u5bfc\u6570\n3/4",
+    "uuid": "167090a3-f7f2-4c73-9fe5-f9e8920828f0",
+    "date": "2023-10-9",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "Classroom",
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ]
+  },
+  {
+    "slot": "9\uff1a55 -  11\uff1a30",
+    "detail": "\u4e60\u9898\n\u57fa\u7840\u90e8\u5206\n\u5bfc\u65703/4\n\u8ba2\u6b63",
+    "uuid": "6fca2238-07fe-435b-8b00-ea4954edccd1",
+    "date": "2023-10-10",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ]
+  },
+  {
+    "slot": "7:30",
+    "detail": null,
+    "uuid": "50beadcd-208e-44e8-bccb-5eebe20ac51a",
+    "date": "2023-10-12",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "wake-up"
+    ]
+  },
+  {
+    "slot": "12\uff1a00-13\uff1a00",
+    "detail": "\u5403\u5b8c\u996d\u73a9\u4e86\u4e00\u4f1a\u513f\u7535\u8111\uff0c\u67e5strapi\u7684\u8d44\u6599",
+    "uuid": "358f07e0-9708-4f26-ac76-3bed16020f1d",
+    "date": "2023-10-9",
+    "target": [],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Play"
+    ],
+    "task": [
+      "surfure-web"
+    ]
+  },
+  {
+    "slot": "23:26",
+    "detail": null,
+    "uuid": "3ea6be63-c458-460d-98b5-682f03f9300b",
+    "date": "2023-10-9",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ]
+  },
+  {
+    "slot": "13:00-13:40",
+    "detail": "\u6d17\u8863\u670d\uff0c\u6d17\u889c\u5b50\uff0c\u524d\u51e0\u5929\u90fd\u5728\u4e0b\u96e8\uff0c\u6d17\u4e0d\u4e86\u889c\u5b50\uff0c\u8863\u670d\u6709\u70b9\u5473\u9053\u4e86\uff0c\u4e4b\u524d\u90fd\u662f\u8fd0\u52a8\u7a7f\u5f97T\u6064",
+    "uuid": "b5bebdc6-5ff5-4c44-bda0-7cbbc311fbf8",
+    "date": "2023-10-8",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "Wash Clothes"
+    ]
+  },
+  {
+    "slot": "0:50",
+    "detail": null,
+    "uuid": "6f8f0a7c-26ef-4236-8ac6-f0c78872e961",
+    "date": "2023-10-11",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ]
+  },
+  {
+    "slot": "12:00",
+    "detail": "test22",
+    "uuid": "1273bcb2-d86e-4d66-b84f-97e4c9d1fa69",
+    "date": "2023-10-21",
+    "target": [
+      "work-space"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "Coding"
+    ]
+  },
+  {
+    "slot": "10:55-11:30",
+    "detail": "\u94fe\u8868\u4e60\u98981/2",
+    "uuid": "c6bce14c-d568-491d-9285-0994c862f767",
+    "date": "2023-10-13",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "DS"
+    ]
+  },
+  {
+    "slot": "16:45-17:10",
+    "detail": "2023- 9-20\n\u6761\u4ef6\u6982\u7387\uff0c\u5168\u6982\u7387\u516c\u5f0f\uff0c\u8d1d\u53f6\u65af\u5b9a\u7406\n",
+    "uuid": "ae4b93fb-8532-4133-b2f3-6bcca3111ba6",
+    "date": "2023-10-13",
+    "target": [
+      "homework"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "probability"
+    ]
+  },
+  {
+    "slot": "8:25",
+    "detail": "",
+    "uuid": "f9b095cc-e65d-4c59-8e7a-b998e07907ea",
+    "date": "2023-10-14",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "get-up"
+    ]
+  },
+  {
+    "slot": "8:10",
+    "detail": "",
+    "uuid": "fee41020-7b99-446d-9e66-f2a88c84113b",
+    "date": "2023-10-20",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "get-up"
+    ]
+  },
+  {
+    "slot": "23:38",
+    "detail": "",
+    "uuid": "b47d85ed-3a08-4e93-a4c5-77d577c2878f",
+    "date": "2023-10-19",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ]
+  },
+  {
+    "slot": "22:34",
+    "detail": "",
+    "uuid": "ed49e5e9-f13c-49e2-bef1-73f677a5dc30",
+    "date": "2023-10-12",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ]
+  },
+  {
+    "slot": "7:40",
+    "detail": "",
+    "uuid": "5882fe50-64a8-4b72-a7f0-aab507fdf726",
+    "date": "2023-10-13",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "get-up"
+    ]
+  },
+  {
+    "slot": "9:00-11:20",
+    "detail": "1. \u5c06metabase\u4e0esupabase\u914d\u578b\n2. \u5c06metabase\u878d\u5408\u5230workspace\u9879\u76ee\u4e2d\n3. \u91cd\u65b0\u6574\u7406workspace\u9879\u76ee\u7ed3\u6784\n4. \u8bbe\u7f6ebackup\u90e8\u5206\n5. \u7f16\u5199workspace\u9879\u76eereadme.md",
+    "uuid": "84f2ed16-64f8-4c60-8980-11402546fa2f",
+    "date": "2023-10-14",
+    "target": [
+      "work-space"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "python"
+    ]
+  },
+  {
+    "slot": "12:00-16:00",
+    "detail": "work-space\u7684vue\u524d\u7aef\n\u6dfb\u52a0\u4e86\u663e\u793a\u5f02\u6b65\u4efb\u52a1\u72b6\u6001\u7684\u6309\u94ae\n\u66f4\u6362\u4e86\u521d\u6b21\u52a0\u8f7d\u6570\u636e\u7684\u663e\u793a\n\u8c03\u6574\u4e86vue\u4e2d\u7684\u7ec4\u4ef6\u8bbe\u7f6e\n\u4f18\u5316\u4e86\u4e00\u4e9b\u6309\u94ae\uff0c\u641c\u7d22\u680f\u7684\u8bbe\u7f6e.",
+    "uuid": "0516f3c7-639b-44c2-a903-534956d11534",
+    "date": "2023-10-20",
+    "target": [
+      "work-space"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "Coding"
+    ]
+  },
+  {
+    "slot": "15:00-18:30",
+    "detail": "\u53bb\u5357\u5927\u627ely\u6253\u4e52\u4e53\u7403",
+    "uuid": "fd5edaa4-e4a9-4812-b486-ef88d00fc577",
+    "date": "2023-10-14",
+    "target": [],
+    "location": [
+      "NJU"
+    ],
+    "category": [
+      "PE"
+    ],
+    "task": [
+      "table-tennis"
+    ]
+  },
+  {
+    "slot": "23\uff1a11",
+    "detail": "",
+    "uuid": "719f4b25-98d3-46da-b957-c017e87ee945",
+    "date": "2023-10-14",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ]
+  },
+  {
+    "slot": "7\uff1a58",
+    "detail": "",
+    "uuid": "ea0b392d-a1de-492b-8224-94d4392825ab",
+    "date": "2023-10-15",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "get-up"
+    ]
+  },
+  {
+    "slot": "16\uff1a00-17\uff1a00",
+    "detail": "10-8\u4f5c\u4e1a\nP48  2  5\nP55  2  4\nP65 1(3)  2",
+    "uuid": "61e43dda-c8e1-49e5-816e-064b6a7bcaa7",
+    "date": "2023-10-15",
+    "target": [
+      "homework"
+    ],
+    "location": [
+      "Home"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "probability"
+    ]
+  },
+  {
+    "slot": "14:30-15:20",
+    "detail": "2023-10-13\n\u79bb\u6563\u578b\u968f\u673a\u53d8\u91cf\nP66  3 4 8(1) 13   \u2705\n",
+    "uuid": "60e3606d-31c8-43ed-9cec-069b2ab6c7e3",
+    "date": "2023-10-18",
+    "target": [
+      "homework"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "probability"
+    ]
+  },
+  {
+    "slot": "23:16",
+    "detail": "",
+    "uuid": "4218111a-29f6-4de2-8eb3-58e93c03a095",
+    "date": "2023-10-15",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ]
+  },
+  {
+    "slot": "7:45",
+    "detail": "",
+    "uuid": "01d7f454-2dc3-4032-acbc-cb5d80b1b0f5",
+    "date": "2023-10-17",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "get-up"
+    ]
+  },
+  {
+    "slot": "8:48-8:55",
+    "detail": "\u5fae\u673a\u539f\u7406\n10-11\u4f5c\u4e1a",
+    "uuid": "b178261e-f7a1-4e8c-bdd1-b643ca1e4436",
+    "date": "2023-10-16",
+    "target": [
+      "homework"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "University"
+    ],
+    "task": [
+      "school-work"
+    ]
+  },
+  {
+    "slot": "19:20-21:45",
+    "detail": "work-space\u7684vue\u524d\u7aef\n\u53bb\u9664\u4e86\u5355\u72ec\u4eceaction\u5217\uff0c\u76f4\u63a5\u70b9\u51fb\u8868\u683c\u8fdb\u884c\u4fee\u6539\u6570\u636e\n\u7b80\u5316\u4e86\u5f39\u7a97\u7684js\u51fd\u6570\u548c\u4ee3\u7801\n\u5728\u5f39\u7a97\u4e2d\u5b9e\u73b0\u5220\u9664\u4fee\u6539",
+    "uuid": "082196d6-f732-4602-9cc7-25fb7546dcc0",
+    "date": "2023-10-20",
+    "target": [
+      "work-space"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "Coding"
+    ]
+  },
+  {
+    "slot": "",
+    "detail": "\u7535\u529b\u7cfb\u7edf\u7535\u538b\u8c03\u6574\n2023-9-28\n\u8d85\u661f\u9009\u62e9\u9898",
+    "uuid": "ac96d51c-6e90-4082-b6e8-1bf0a3192c38",
+    "date": "2023-10-16",
+    "target": [
+      "homework"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "University"
+    ],
+    "task": [
+      "school-work"
+    ]
+  },
+  {
+    "slot": "16:10-17:30",
+    "detail": "\u548c\u9648\u5b50\u6960\u6253\u4e52\u4e53\u7403\n\u6ca1\u6709\u4f11\u606f\u597d\uff0c\u4e00\u70b9\u52b2\u90fd\u6ca1\u6709\ud83d\ude12",
+    "uuid": "a2e204b4-e44c-4bf0-a31f-f5de72db4d09",
+    "date": "2023-10-20",
+    "target": [],
+    "location": [
+      "table-tennis-room"
+    ],
+    "category": [
+      "PE"
+    ],
+    "task": [
+      "table-tennis"
+    ]
+  },
+  {
+    "slot": "16:00-17:10",
+    "detail": "\u8f85\u5bfc\u8bb2\u4e49\n\u4e2d\u503c\u5b9a\u7406\u4e0e\u4e00\u5143\u51fd\u6570\u7684\u5fae\u5206\u5e94\u7528\n\u770b\u61c2\u8bc1\u660e\u9898\u4f8b\u9898\n1800\u4e09\u9053\u9898",
+    "uuid": "508e2e7d-3ac2-4fb6-b285-157e9a17b00a",
+    "date": "2023-10-16",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ]
+  },
+  {
+    "slot": "18::00-19:30",
+    "detail": "\u6570\u7ec4\u90e8\u5206\nhttps://leetcode.cn/problems/two-sum/description/\n1. \u4e24\u6570\u4e4b\u548c\n\u54c8\u5e0c\u8868\u6216\u8005\u6392\u5e8f\u53cc\u6307\u9488\u89e3\u6cd5",
+    "uuid": "2c2383ec-1f33-49f6-8831-bacdaf5091ec",
+    "date": "2023-10-16",
+    "target": [
+      "leetcode"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "DS"
+    ]
+  },
+  {
+    "slot": "19:45-21:00",
+    "detail": "\u7f51\u8bfe\n\u590d\u4e60ALU\n\u65b0\u5b66 \u5b9a\u70b9\u6570\u7684\u79fb\u4f4d\n\u5e76\u5b8c\u6210\u76f8\u5e94\u7684\u7b14\u8bb0",
+    "uuid": "4b6a3da1-5aa2-4aba-b191-a58d9248cb29",
+    "date": "2023-10-16",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CO"
+    ]
+  },
+  {
+    "slot": "21:30-22:00",
+    "detail": "\u9605\u8bfb\u82f1\u8bed\u539f\u8457\nthe shortest history of europe ",
+    "uuid": "70cd526a-abc2-4465-9575-56bee807a5c9",
+    "date": "2023-10-16",
+    "target": [
+      "the shortest history of europe"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "English"
+    ]
+  },
+  {
+    "slot": "23:09",
+    "detail": "",
+    "uuid": "ee3ea9d6-29f1-4bae-bf80-a0efe9377df3",
+    "date": "2023-10-16",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ]
+  },
+  {
+    "slot": "7:30",
+    "detail": "",
+    "uuid": "e08ae1a2-06c3-4bd2-8fd1-27345ecc16c5",
+    "date": "2023-10-16",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "get-up"
+    ]
+  },
+  {
+    "slot": "8:00-9:40",
+    "detail": "Django\u5b98\u7f51\u65b0\u624b\u6559\u7a0b\n",
+    "uuid": "b56dc5ba-e31d-4d03-be16-b44ab9f5ca56",
+    "date": "2023-10-17",
+    "target": [
+      "Django"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "python"
+    ]
+  },
+  {
+    "slot": "9:55-11:30",
+    "detail": "\u4e60\u9898\n\u6808\u7684\u9009\u62e9\u9898\n\u987a\u5f0f\u5b58\u50a8\u7ebf\u6027\u8868\u7b97\u6cd5\u9898+2",
+    "uuid": "13a81b7c-f5b2-462f-a029-9038f554cdd5",
+    "date": "2023-10-17",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "DS"
+    ]
+  },
+  {
+    "slot": "14:55-16\uff1a30",
+    "detail": "\u4e2d\u503c\u5b9a\u7406\u4e0e\u4e00\u5143\u51fd\u6570\u5fae\u5206\u5b66\u7684\u5e94\u7528\n\u5165\u95e8\u7ec3\u4e60 3/4",
+    "uuid": "6c18c106-7fae-44db-aefe-df8a1ea9abf7",
+    "date": "2023-10-17",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ]
+  },
+  {
+    "slot": "16:40-17:10",
+    "detail": "\u6570\u7ec4\u90e8\u5206\n\u5bfb\u627e\u4e24\u4e2a\u6b63\u5e8f\u5217\u8868\u7684\u4e2d\u4f4d\u6570 **2011\u8003\u7814\u539f\u9898**\n\u4f7f\u7528\u66b4\u529b\u89e3\u6cd5\n\nhttps://leetcode.cn/problems/median-of-two-sorted-arrays/description/\n",
+    "uuid": "82af7bc9-1c8d-4e0b-aee4-fc06e377fd0d",
+    "date": "2023-10-17",
+    "target": [
+      "leetcode"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "DS"
+    ]
+  },
+  {
+    "slot": "7:25",
+    "detail": null,
+    "uuid": "bbccfa67-9a0b-4068-9a14-41f65c52209e",
+    "date": "2023-10-11",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "get-up"
+    ]
+  },
+  {
+    "slot": "12:00-13:00",
+    "detail": "\u770b\u4e86\u4e00\u5c0f\u4f1a\uff0c\u6d41\u7545\u7684python\uff0c\u4e3b\u8981\u662f\u9488\u5bf9\u7c7b\u578b\u6ce8\u91ca\u90a3\u4e00\u5757\uff0c\u56e0\u4e3a\u5728py-strapi\u7684\u9879\u76ee\u4e2d\uff0c\u770b\u5230\u4e86\u5927\u91cf\u7684\u7c7b\u578b\u6ce8\u91ca\uff0c\u540c\u65f6\u4e5f\u770b\u89c1\u4e86\u6d4b\u8bd5\u7684\u5185\u5bb9\uff0c\u6211\u731c\u662f\u56e0\u4e3a\n1.\u5927\u578b\u9879\u76ee\u4e2d\u9700\u8981\u5408\u4f5c\uff0c\u56e0\u6b64\u5fc5\u8981\u7684\u7c7b\u578b\u6ce8\u91ca\u4fbf\u4e8e\u591a\u4eba\u7ef4\u62a4\n2. \u540c\u65f6\u65b9\u4fbf\u6d4b\u8bd5\uff0c\u6d4b\u8bd5\u4e0d\u540c\u7684\u5185\u5bb9\uff0c\u5f3a\u5316\u4ee3\u7801\u7684\u5065\u58ee\u6027\n3.\u4f46\u662f\u4e5f\u6709\u7f3a\u70b9\uff0c\u5c31\u662f\u4ed6\u7684\u7c7b\u578b\u6ce8\u91ca\u6709\u90e8\u5206\u5df2\u7ecf\u6709\u70b9\u65e7\u4e86\uff0c\u663e\u800c\u6613\u89c1\u4ed6\u4e5f\u662f\u8001\u624b\u4e86",
+    "uuid": "9dc2b588-7e10-4dbe-9768-7b01a8f22210",
+    "date": "2023-10-8",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "python"
+    ]
+  },
+  {
+    "slot": "14\uff1a35-15:20",
+    "detail": "\u65f6\u95f4\u590d\u6742\u5ea6+\u7ebf\u6027\u8868\n\u8bfe\u540e\u4e60\u9898 \u2705",
+    "uuid": "95e8d81c-af3a-4119-8ab2-9dabe63a1d93",
+    "date": "2023-10-11",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "DS"
+    ]
+  },
+  {
+    "slot": "15:00 -17:30",
+    "detail": "\u4e09\u91cd\u79ef\u5206\u7684\u7b2c\u4e00\u6b21\u4f5c\u4e1a****\u672a\u5b8c\u6210\n\u4e09\u91cd\u79ef\u5206\u7684\u7b2c\u4e8c\u6b21\u4f5c\u4e1a  # \u5df2\u5b8c\u6210\n\u4e09\u91cd\u79ef\u5206\u7684\u7b14\u8bb0\u548c\u77e5\u8bc6\u70b9\n\u6839\u636e\u6258\u9a6c\u65af\u5fae\u79ef\u5206\u6559\u6750\u7406\u89e3\u7684\u610f\u4e49\u53ca\u5176\u5e94\u7528\u573a\u666f\n1. \u76f4\u89d2\u5750\u6807\u7cfb\n2. \u67f1\u9762\u5750\u6807\u7cfb\n3. \u7403\u9762\u5750\u6807\u7cfb",
+    "uuid": "7ce6616a-9730-4bf0-aeff-50a743c3c00c",
+    "date": "2023-10-7",
+    "target": [
+      "homework"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ]
+  },
+  {
+    "slot": "12:00-16:00",
+    "detail": "1. \u5c06supabse-py\u7684\u540c\u6b65\u91cd\u6784\u4e3a\u5f02\u6b65\u7684\n2. \u5c06supabase\u4f5c\u4e3a\u540e\u7aef\uff0c\u91cd\u6784fastapi\u63a5\u53e3\n3. work_space\u7684\u4efb\u52a1\u7c7b\u522b\u7684\u6dfb\u52a0\u548c\u5220\u9664\u529f\u80fd\u7684\u5b8c\u6210",
+    "uuid": "fadfd312-9a18-4091-ac44-468785fe13f1",
+    "date": "2023-10-13",
+    "target": [
+      "work-space"
+    ],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "python"
+    ]
+  },
+  {
+    "slot": "20:40 - 21:30",
+    "detail": "\u5e38\u89c4\u58a8\u58a8\u80cc\u5355\u8bcd",
+    "uuid": "70edae09-7248-49db-a404-3cb71f0105e9",
+    "date": "2023-10-7",
+    "target": [
+      "memorize- words"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "English"
+    ]
+  },
+  {
+    "slot": "19:45-20:30",
+    "detail": "\u7b2c\u4e8c\u7ae0 \u6570\u636e\u7684\u8868\u793a\u548c\u8fd0\u7b97\n2.1\u6570\u5236 \u4e0e\u7f16\u7801\n\u56f4\u7ed5\u51e0\u4e2a\u95ee\u9898\u5c55\u5f00\n1. \u600e\u4e48\u6765\u8868\u793a\u6570\uff1f\n2. 2\uff0c8\uff0c16\uff0c10\u8fdb\u5236\u76f4\u63a5\u600e\u4e48\u8f6c\u6362\uff1f\n     2\uff0c8\uff0c16 =>\u7b49\u4f4d\u8f6c\u5316\n    10=>any  \u6574\u6570\u90e8\u5206\u62fc\u51d1\u6cd5\uff0c\u5c0f\u6570\u90e8\u5206\u4e58\u6cd5\uff0c\u5c0f\u6570\u90e8\u5206\u53ef\u80fd\u51fa\u73b0\u65e0\u9650\u5faa\u73af\n3. \u771f\u503c\u4e0e\u673a\u5668\u7801",
+    "uuid": "dbbb1212-0a0d-47a9-b095-b55cfa6e8d76",
+    "date": "2023-10-7",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CO"
+    ]
+  },
+  {
+    "slot": "8:25-10:40",
+    "detail": "\u4e60\u9898\n\u57fa\u7840\u90e8\u5206\n\u5bfc\u65704/4",
+    "uuid": "09668945-a1ae-4a76-b627-6accec92d020",
+    "date": "2023-10-11",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ]
+  },
+  {
+    "slot": "9\uff1a55-10\uff1a40",
+    "detail": "\u4e60\u9898\n\u5fae\u79ef\u5206\u57fa\u7840\n\u5bfc\u6570\u90e8\u5206\n2/4",
+    "uuid": "90337a19-6de6-4fe8-8975-28af88616189",
+    "date": "2023-10-9",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ]
+  },
+  {
+    "slot": "17:40-18:10",
+    "detail": "\u53e3\u8bed\u7ec3\u4e60\nGPT4\u5bf9\u8bdd",
+    "uuid": "f255e280-9fbd-4ad6-86b7-583e16ca8a6d",
+    "date": "2023-10-17",
+    "target": [
+      "speaking"
+    ],
+    "location": [
+      "roads-in-school"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "English"
+    ]
+  },
+  {
+    "slot": "18\uff1a45-20:20",
+    "detail": "\u7b2c\u4e8c\u7ae0\n\u5b9a\u70b9\u6570\u7684\u6570\u7684\u52a0\u51cf\u8fd0\u7b97\n\u7f51\u8bfe+\u8349\u7a3f+\u7b14\u8bb0",
+    "uuid": "592465e2-9e45-416f-8e43-13496b000420",
+    "date": "2023-10-17",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CO"
+    ]
+  },
+  {
+    "slot": "20:40-21:10",
+    "detail": "55/175",
+    "uuid": "3352db2e-7433-41e6-814c-9c24df953cca",
+    "date": "2023-10-17",
+    "target": [
+      "memorize- words"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "English"
+    ]
+  },
+  {
+    "slot": "21:30-22:00",
+    "detail": "\u9605\u8bfb\u82f1\u8bed\u539f\u8457\nthe shortest history of europe",
+    "uuid": "bf05a43e-f9cc-4972-a84b-3db4749ac593",
+    "date": "2023-10-17",
+    "target": [
+      "the shortest history of europe"
+    ],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "English"
+    ]
+  },
+  {
+    "slot": "23:36",
+    "detail": "\u7761\u5f97\u8fdf\u4e86\n\u6ca1\u6709\u5f88\u597d\u7684\u653e\u7a7a\u5927\u8111\ud83e\udde0",
+    "uuid": "81836917-6e43-4c55-b0b9-5fba0f37b74f",
+    "date": "2023-10-17",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ]
+  },
+  {
+    "slot": "7:40",
+    "detail": "\u8fd8\u53ef\u4ee5\u66f4\u65e9\u7761\uff0c\u7136\u540e\u66f4\u65e9\u8d77\u6765\u2600\ufe0f\n\u9700\u8981\u53bb\u6253\u5361\u4e86",
+    "uuid": "e3664ba5-cf9e-44a6-b882-e918f6fde48a",
+    "date": "2023-10-18",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "get-up"
+    ]
+  },
+  {
+    "slot": "8:30-9:33",
+    "detail": "\u4e2d\u503c\u5b9a\u7406\u4e0e\u4e00\u5143\u51fd\u6570\u5fae\u5206\u5b66\u7684\u5e94\u7528 \n\u5165\u95e8\u7ec3\u4e60 4/4\u2705",
+    "uuid": "6218543f-ce2a-4155-8d7c-4f6853f26130",
+    "date": "2023-10-18",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ]
+  },
+  {
+    "slot": "9:55-11:30",
+    "detail": "2023-10-18\n\u8bfe\u540e\u4f5c\u4e1a\nP80  2  4   \u2705\nP81  7  9  11(1)(2)(3) \u2705",
+    "uuid": "b750c3b4-87ae-47a5-bec4-ce1be172ce0c",
+    "date": "2023-10-20",
+    "target": [
+      "homework"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "probability"
+    ]
+  },
+  {
+    "slot": "16:00-17:15",
+    "detail": "\u7b2c\u4e00\u6b65\u7684\u5f39\u5c04\u95ee\u9898\u6709\u70b9\u5927\ud83d\ude12",
+    "uuid": "914cccee-39fc-43ad-a446-fce080f366a7",
+    "date": "2023-10-18",
+    "target": [
+      "starting"
+    ],
+    "location": [
+      "playground"
+    ],
+    "category": [
+      "PE"
+    ],
+    "task": [
+      "sprint"
+    ]
+  },
+  {
+    "slot": "18:00-18:30",
+    "detail": "\u4e2d\u503c\u5b9a\u7406\u53ca\u4e00\u5143\u5fae\u5206\u7684\u5e94\u7528\n\u5165\u95e8\u7ec3\u4e60\n\u8ba2\u6b63 1/2",
+    "uuid": "3c3174b1-ed7b-4223-a558-1145b9687d13",
+    "date": "2023-10-18",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ]
+  },
+  {
+    "slot": "20:00-21:00",
+    "detail": "50/175",
+    "uuid": "6f37bf2a-9575-42c7-adf6-e7a7cbca288a",
+    "date": "2023-10-18",
+    "target": [
+      "memorize- words"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "English"
+    ]
+  },
+  {
+    "slot": "23:55",
+    "detail": "\u4e0d\u5e94\u8be5\u548c\u5ba4\u53cb\u804a\u7684\u90a3\u4e48\u4e0a\u5934",
+    "uuid": "1d326245-613e-4219-8b00-657cd8ace753",
+    "date": "2023-10-18",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ]
+  },
+  {
+    "slot": "7:40",
+    "detail": "",
+    "uuid": "594ac70a-9d91-447f-9aa3-ddbcd67a03d1",
+    "date": "2023-10-19",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "get-up"
+    ]
+  },
+  {
+    "slot": "8:00-10:40",
+    "detail": "\u961f\u5217\n\u77e5\u8bc6\u70b9\u7406\u89e3\u2705\n\u8bfe\u540e\u4f5c\u4e1a 3/4",
+    "uuid": "b046de10-2a6d-4a5d-a10e-b57323894600",
+    "date": "2023-10-19",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "DS"
+    ]
+  },
+  {
+    "slot": "10:10-10:40",
+    "detail": "\u961f\u5217\n\u8bfe\u540e\u4f5c\u4e1a \u2705",
+    "uuid": "abb43f1b-677e-4657-b59f-d8fc394ac9be",
+    "date": "2023-10-19",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "DS"
+    ]
+  },
+  {
+    "slot": "16:00-17:06",
+    "detail": "\u4e2d\u503c\u5b9a\u7406\u4e0e\u4e00\u5143\u51fd\u6570\u7684\u5fae\u5206\u5e94\u7528\n\u8ba2\u6b63\u270d\ufe0f",
+    "uuid": "bb6fd84e-a65e-450d-9535-e3c8288c6bb0",
+    "date": "2023-10-19",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ]
+  },
+  {
+    "slot": "18:00-19:10",
+    "detail": "\u4f7f\u7528vuexy9.0ui\u6a21\u677f\n\u8fc1\u79fb\u5e94\u7528\u81f3starter-kit\n\n",
+    "uuid": "15412826-a64f-4c58-b7d5-e8910327fc28",
+    "date": "2023-10-19",
+    "target": [
+      "work-space"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "Coding"
+    ]
+  },
+  {
+    "slot": "19:40-21:40",
+    "detail": "\u7f51\u8bfe+\u7b14\u8bb0\n\u65e0\u7b26\u53f7\u6570\u7684\u52a0\u51cf\u8fd0\u7b97\u2705\n\u8865\u7801\u7684\u52a0\u51cf\u8fd0\u7b97\u7535\u8def\u2705\n\u539f\u7801\u7684\u4e58\u6cd5\u8fd0\u7b97\u53ca\u5176\u7535\u8def\u2705",
+    "uuid": "304f97eb-13b3-4a56-8682-ae94241d1319",
+    "date": "2023-10-19",
+    "target": [
+      "CS-408"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "DS"
+    ]
+  }
+]

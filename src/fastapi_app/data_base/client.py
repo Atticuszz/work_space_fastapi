@@ -34,6 +34,24 @@ class SupaBase:
             name).delete().eq("uuid", uuid).execute()
         return response.data
 
+    async def multi_requests(self, name: str, data: list[dict], options: str, chunk_size: int = 4000):
+
+        for i in range(0, len(data), chunk_size):
+            chunk_data = data[i:i + chunk_size]
+            match options:
+                case "upsert":
+                    tasks = [asyncio.ensure_future(self.upsert(name, item))
+                             for item in chunk_data]
+                case 'delete':
+                    tasks = [
+                        asyncio.ensure_future(
+                            self.delete(name,
+                                        item["uuid"])) for item in chunk_data]
+                case _:
+                    raise ValueError("options must be 'upsert' or 'delete'")
+            await asyncio.gather(*tasks)
+        return
+
 
 supabase_client = SupaBase()
 

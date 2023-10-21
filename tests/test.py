@@ -89,7 +89,7 @@ async def safe_upsert(item, retries=3):
             await asyncio.sleep(0.001)
 
 
-async def multi_requests(data: list, options: str):
+async def multi_requests(data: list[dict], options: str):
     # with open("test_data.json", "r") as f:
     #     data = json.load(f)
     chunk_size = 4000
