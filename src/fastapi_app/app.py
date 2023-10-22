@@ -60,7 +60,7 @@ def server_run(debug: bool = False, port: int = 5000):
     yarn_command = ["yarn", "run", "preview"]
     vue_path = "C:\\Users\\18317\\OneDrive\\vue\\vuexy-vuetify-vue3\\typescript-version\\starter-kit"
     assert Path(vue_path).exists(), "vue_path not exists"
-    subprocess.Popen(yarn_command, cwd=vue_path, shell=True)
+    # subprocess.Popen(yarn_command, cwd=vue_path, shell=True)
     fastapi_scheduler.start()
 
     if debug:

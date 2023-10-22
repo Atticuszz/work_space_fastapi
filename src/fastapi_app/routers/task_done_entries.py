@@ -18,17 +18,12 @@ async def get_all_table_items() -> list[dict]:
     return entries
 
 
-@router_task_entries.post("/add_entry")
-async def add_entry(data: TaskDoneEntry):
+@router_task_entries.post("/upsert_entry")
+async def upsert_entry(data: TaskDoneEntry):
     # print("add_entry:", data.model_dump())
     new_entry = await supabase_client.upsert("task_done_list", data.model_dump())
     return new_entry
 
-
-@router_task_entries.put("/update_entry/{uuid}")
-async def update_entry(uuid: str, data: TaskDoneEntry):
-    updated_entry = await supabase_client.upsert("task_done_list", data.model_dump())
-    return updated_entry
 
 
 @router_task_entries.delete("/delete_entry/{uuid}")
