@@ -11,3 +11,5 @@ class TaskDoneEntry(BaseModel):
     detail: str
     slot: str
     location: list[str]
+
+# TODO: slot TO TIME

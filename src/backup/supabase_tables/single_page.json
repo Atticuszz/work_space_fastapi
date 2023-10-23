@@ -13,8 +13,6 @@
       "python",
       "boxing",
       "sprint",
-      "CO",
-      "DS",
       "Coding",
       "English",
       "Wash Clothes",
@@ -23,7 +21,10 @@
       "probability",
       "table-tennis",
       "school-work",
-      "shopping"
+      "shopping",
+      "back-home",
+      "kaggle",
+      "CS-408"
     ],
     "location": [
       "Home",
@@ -46,7 +47,10 @@
       "Math-1800",
       "starting",
       "the shortest history of europe",
-      "speaking"
+      "speaking",
+      "search-info",
+      "DS",
+      "CO"
     ],
     "uuid": "ce35825d-4454-4254-b8e4-9f8a6e60db0d"
   }

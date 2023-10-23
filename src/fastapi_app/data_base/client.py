@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 from postgrest import APIResponse
 
+from src.fastapi_app.dependencies.decorator import retry
 from src.supabase import create_client, AsyncClient
 from src.supabase.lib.client_options import ClientOptions
 
@@ -18,6 +19,7 @@ class SupaBase:
             url, key, options=ClientOptions(
                 postgrest_client_timeout=10, storage_client_timeout=10))
 
+    @retry
     async def get_table(self, name: str, columns: list[str] | None = None) -> list[dict]:
         if columns is None:
             columns = ["*"]
@@ -25,10 +27,12 @@ class SupaBase:
         response: APIResponse = await self.client.table(name).select(select_params).execute()
         return response.data
 
+    @retry
     async def upsert(self, name: str, data: dict) -> list[dict]:
         response: APIResponse = await self.client.table(name).upsert(data).execute()
         return response.data
 
+    @retry
     async def delete(self, name: str, uuid: str) -> list[dict]:
         response: APIResponse = await self.client.table(
             name).delete().eq("uuid", uuid).execute()

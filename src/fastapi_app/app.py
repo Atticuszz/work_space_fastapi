@@ -60,16 +60,18 @@ def server_run(debug: bool = False, port: int = 5000):
     yarn_command = ["yarn", "run", "preview"]
     vue_path = "C:\\Users\\18317\\OneDrive\\vue\\vuexy-vuetify-vue3\\typescript-version\\starter-kit"
     assert Path(vue_path).exists(), "vue_path not exists"
-    # subprocess.Popen(yarn_command, cwd=vue_path, shell=True)
+    subprocess.Popen(yarn_command, cwd=vue_path, shell=True)
     fastapi_scheduler.start()
 
-    if debug:
+    if not debug:
         # Run FastAPI with reload
+
         subprocess.Popen(["uvicorn", "app:app", "--host",
                           "127.0.0.1", "--port", str(port), "--reload"])
     else:
+
         uvicorn.run(app, port=port)
 
 
 if __name__ == "__main__":
-    server_run()
+    server_run(True)

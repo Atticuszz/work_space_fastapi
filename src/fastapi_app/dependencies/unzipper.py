@@ -21,7 +21,7 @@ def move_and_rename_files(
     Returns:
 
     """
-    assert original_dir.is_dir(), "原文件夹不存在"
+    assert original_dir.is_dir(), f"原文件夹{original_dir}不存在"
 
     for item in original_dir.glob('*.csv'):
         # 构建新文件名和目标路径

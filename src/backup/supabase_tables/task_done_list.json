@@ -90,24 +90,6 @@
     "uuid": "256fad87-5cc7-4ff5-839a-599665e025f3"
   },
   {
-    "slot": "9\uff1a50-11\uff1a00",
-    "detail": "\u7ebf\u6027\u8868\u7b97\u6cd5\u98984/5\n\n\u914d\u7f6eclion\u548c\u4e0b\u8f7d\u6559\u7a0b\u4ee3\u7801",
-    "date": "2023-10-12",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "WenChang"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "DS"
-    ],
-    "uuid": "42040673-aef9-49c9-9b01-068424e94005"
-  },
-  {
     "slot": "18:00-20:00",
     "detail": "\u5c1d\u8bd5\u4f7f\u7528 poetry 1/3\u4f5c\u4e3apython\u865a\u62df\u73af\u5883\u548c\u5305\u7ba1\u7406\u5668",
     "date": "2023-10-9",
@@ -124,60 +106,6 @@
       "python"
     ],
     "uuid": "e07797f0-aa26-4481-94c8-c6be11dd1246"
-  },
-  {
-    "slot": "8:00-9:40",
-    "detail": "\u7ebf\u6027\u8868\u7684\u7b97\u6cd5\u9898\u771f\u9898\n\u601d\u8def\u7f16\u5199\n",
-    "date": "2023-10-12",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "Classroom"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "DS"
-    ],
-    "uuid": "14eed965-08e8-4f55-833e-4e1ad3a47969"
-  },
-  {
-    "slot": "20\uff1a35-21\uff1a00",
-    "detail": "\u7eea\u8bba \n\u7f51\u8bfe",
-    "date": "2023-10-10",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "WenChang"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "DS"
-    ],
-    "uuid": "690b8552-2dd5-4968-8171-07e0e1eaf086"
-  },
-  {
-    "slot": "15\uff1a30 - 17\uff1a00",
-    "detail": "\u5b9a\u70b9\u6570\u7684\u7f16\u7801\u8868\u793a\n\u5b8c\u6210\u5269\u4e0b\u7684\u4f5c\u4e1a1/2",
-    "date": "2023-10-10",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "Classroom"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "CO"
-    ],
-    "uuid": "f543b15e-d48a-499e-bc03-2c670c06d533"
   },
   {
     "slot": "8:30",
@@ -212,42 +140,6 @@
     "uuid": "ca864720-884b-4ddd-95c3-34b186f40fcd"
   },
   {
-    "slot": "9\uff1a10-9:45",
-    "detail": "\u5b9a\u70b9\u6570\u7684\u7f16\u7801\u8868\u793a\n\u590d\u4e60\u4e864\u4e2d\u5b9a\u70b9\u6570\u7684\u7f16\u7801\u8868\u793a\u65b9\u5f0f\u4ee5\u53ca\u4e4b\u95f4\u7684\u76f8\u4e92\u8f6c\u6362\n\u7406\u89e3\u4e86\u4e3a\u4ec0\u4e484\u4e2d\u7f16\u7801\u65b9\u5f0f\u7684\u8868\u793a\u8303\u56f4\u662f\u4e3a\u4ec0\u4e48\uff1f",
-    "date": "2023-10-10",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "WenChang"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "CO"
-    ],
-    "uuid": "cb8982ea-9751-408c-b5aa-c938397f3f39"
-  },
-  {
-    "slot": "9\uff1a10 - 9\uff1a45",
-    "detail": "\u5b9a\u70b9\u6570\u7684\u7f16\u7801\u8868\u793a \n\u7f51\u8bfe\n",
-    "date": "2023-10-9",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "WenChang"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "CO"
-    ],
-    "uuid": "d42c1bf7-a6f7-4345-bda4-904b61c19994"
-  },
-  {
     "slot": "23:40",
     "detail": "",
     "date": "2023-10-13",
@@ -262,43 +154,6 @@
       "asleep"
     ],
     "uuid": "f4fca1ab-6450-49b1-8f45-dfd1956a1eb0"
-  },
-  {
-    "slot": "13:40-17:00",
-    "detail": "\u4e60\u9898\n\u9ad8\u6570\u57fa\u7840\u90e8\u5206\n\u5bfc\u6570\n3/4",
-    "date": "2023-10-9",
-    "target": [
-      "Math-1800"
-    ],
-    "location": [
-      "Classroom",
-      "WenChang"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "Calculus"
-    ],
-    "uuid": "b4668317-4677-42fa-b344-eb115cd48a2b"
-  },
-  {
-    "slot": "9\uff1a55 -  11\uff1a30",
-    "detail": "\u4e60\u9898\n\u57fa\u7840\u90e8\u5206\n\u5bfc\u65703/4\n\u8ba2\u6b63",
-    "date": "2023-10-10",
-    "target": [
-      "Math-1800"
-    ],
-    "location": [
-      "Classroom"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "Calculus"
-    ],
-    "uuid": "857fcee5-e930-443b-b0c9-20b475fc8c35"
   },
   {
     "slot": "7:30",
@@ -381,24 +236,6 @@
     "uuid": "c55f07d2-f458-4b51-b9de-1b9423c45a36"
   },
   {
-    "slot": "10:55-11:30",
-    "detail": "\u94fe\u8868\u4e60\u98981/2",
-    "date": "2023-10-13",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "Classroom"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "DS"
-    ],
-    "uuid": "91fd9238-4977-4e18-b775-db6b087ef15e"
-  },
-  {
     "slot": "16:45-17:10",
     "detail": "2023- 9-20\n\u6761\u4ef6\u6982\u7387\uff0c\u5168\u6982\u7387\u516c\u5f0f\uff0c\u8d1d\u53f6\u65af\u5b9a\u7406\n",
     "date": "2023-10-13",
@@ -415,6 +252,150 @@
       "probability"
     ],
     "uuid": "041a8431-6491-451a-9830-37b93e337796"
+  },
+  {
+    "slot": "9\uff1a55 -  11\uff1a30",
+    "detail": "\u5bfc\u6570\n\u57fa\u7840\u7ec3\u4e60\n\u8ba2\u6b633/4\u270d\ufe0f",
+    "date": "2023-10-10",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ],
+    "uuid": "857fcee5-e930-443b-b0c9-20b475fc8c35"
+  },
+  {
+    "slot": "10:55-11:30",
+    "detail": "\u94fe\u8868\u4e60\u98981/2",
+    "date": "2023-10-13",
+    "target": [
+      "DS"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "91fd9238-4977-4e18-b775-db6b087ef15e"
+  },
+  {
+    "slot": "9\uff1a50-11\uff1a00",
+    "detail": "\u7ebf\u6027\u8868\u7b97\u6cd5\u98984/5\n\n\u914d\u7f6eclion\u548c\u4e0b\u8f7d\u6559\u7a0b\u4ee3\u7801",
+    "date": "2023-10-12",
+    "target": [
+      "DS"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "42040673-aef9-49c9-9b01-068424e94005"
+  },
+  {
+    "slot": "8:00-9:40",
+    "detail": "\u7ebf\u6027\u8868\u7684\u7b97\u6cd5\u9898\u771f\u9898\n\u601d\u8def\u7f16\u5199\n",
+    "date": "2023-10-12",
+    "target": [
+      "DS"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "14eed965-08e8-4f55-833e-4e1ad3a47969"
+  },
+  {
+    "slot": "20\uff1a35-21\uff1a00",
+    "detail": "\u7eea\u8bba \n\u7f51\u8bfe",
+    "date": "2023-10-10",
+    "target": [
+      "DS"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "690b8552-2dd5-4968-8171-07e0e1eaf086"
+  },
+  {
+    "slot": "15\uff1a30 - 17\uff1a00",
+    "detail": "\u5b9a\u70b9\u6570\u7684\u7f16\u7801\u8868\u793a\n\u5b8c\u6210\u5269\u4e0b\u7684\u4f5c\u4e1a1/2",
+    "date": "2023-10-10",
+    "target": [
+      "CO"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "f543b15e-d48a-499e-bc03-2c670c06d533"
+  },
+  {
+    "slot": "9\uff1a10-9:45",
+    "detail": "\u5b9a\u70b9\u6570\u7684\u7f16\u7801\u8868\u793a\n\u590d\u4e60\u4e864\u4e2d\u5b9a\u70b9\u6570\u7684\u7f16\u7801\u8868\u793a\u65b9\u5f0f\u4ee5\u53ca\u4e4b\u95f4\u7684\u76f8\u4e92\u8f6c\u6362\n\u7406\u89e3\u4e86\u4e3a\u4ec0\u4e484\u4e2d\u7f16\u7801\u65b9\u5f0f\u7684\u8868\u793a\u8303\u56f4\u662f\u4e3a\u4ec0\u4e48\uff1f",
+    "date": "2023-10-10",
+    "target": [
+      "CO"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "cb8982ea-9751-408c-b5aa-c938397f3f39"
+  },
+  {
+    "slot": "9\uff1a10 - 9\uff1a45",
+    "detail": "\u5b9a\u70b9\u6570\u7684\u7f16\u7801\u8868\u793a \n\u7f51\u8bfe\n",
+    "date": "2023-10-9",
+    "target": [
+      "CO"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "d42c1bf7-a6f7-4345-bda4-904b61c19994"
   },
   {
     "slot": "8:25",
@@ -791,24 +772,6 @@
     "uuid": "b258c65e-a03a-4da1-b246-c0b547fc315c"
   },
   {
-    "slot": "19:45-21:00",
-    "detail": "\u7f51\u8bfe\n\u590d\u4e60ALU\n\u65b0\u5b66 \u5b9a\u70b9\u6570\u7684\u79fb\u4f4d\n\u5e76\u5b8c\u6210\u76f8\u5e94\u7684\u7b14\u8bb0",
-    "date": "2023-10-16",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "WenChang"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "CO"
-    ],
-    "uuid": "4c942789-23ce-446f-abbe-f9f880922538"
-  },
-  {
     "slot": "21:30-22:00",
     "detail": "\u9605\u8bfb\u82f1\u8bed\u539f\u8457\nthe shortest history of europe ",
     "date": "2023-10-16",
@@ -875,24 +838,6 @@
       "python"
     ],
     "uuid": "e19593f5-4307-4816-958a-e919003f40fc"
-  },
-  {
-    "slot": "9:55-11:30",
-    "detail": "\u4e60\u9898\n\u6808\u7684\u9009\u62e9\u9898\n\u987a\u5f0f\u5b58\u50a8\u7ebf\u6027\u8868\u7b97\u6cd5\u9898+2",
-    "date": "2023-10-17",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "Classroom"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "DS"
-    ],
-    "uuid": "d1e36b23-4baa-4e63-a506-8f399d363f77"
   },
   {
     "slot": "14:55-16\uff1a30",
@@ -963,24 +908,6 @@
     "uuid": "9cc48ddb-7717-470f-b6a9-c7875c4009c8"
   },
   {
-    "slot": "14\uff1a35-15:20",
-    "detail": "\u65f6\u95f4\u590d\u6742\u5ea6+\u7ebf\u6027\u8868\n\u8bfe\u540e\u4e60\u9898 \u2705",
-    "date": "2023-10-11",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "Classroom"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "DS"
-    ],
-    "uuid": "78b470e9-6d0c-4654-93ef-429c68736fd9"
-  },
-  {
     "slot": "15:00 -17:30",
     "detail": "\u4e09\u91cd\u79ef\u5206\u7684\u7b2c\u4e00\u6b21\u4f5c\u4e1a****\u672a\u5b8c\u6210\n\u4e09\u91cd\u79ef\u5206\u7684\u7b2c\u4e8c\u6b21\u4f5c\u4e1a  # \u5df2\u5b8c\u6210\n\u4e09\u91cd\u79ef\u5206\u7684\u7b14\u8bb0\u548c\u77e5\u8bc6\u70b9\n\u6839\u636e\u6258\u9a6c\u65af\u5fae\u79ef\u5206\u6559\u6750\u7406\u89e3\u7684\u610f\u4e49\u53ca\u5176\u5e94\u7528\u573a\u666f\n1. \u76f4\u89d2\u5750\u6807\u7cfb\n2. \u67f1\u9762\u5750\u6807\u7cfb\n3. \u7403\u9762\u5750\u6807\u7cfb",
     "date": "2023-10-7",
@@ -1035,60 +962,6 @@
     "uuid": "1b84d8ba-e5df-4d19-a7d2-2bc42a7ca804"
   },
   {
-    "slot": "19:45-20:30",
-    "detail": "\u7b2c\u4e8c\u7ae0 \u6570\u636e\u7684\u8868\u793a\u548c\u8fd0\u7b97\n2.1\u6570\u5236 \u4e0e\u7f16\u7801\n\u56f4\u7ed5\u51e0\u4e2a\u95ee\u9898\u5c55\u5f00\n1. \u600e\u4e48\u6765\u8868\u793a\u6570\uff1f\n2. 2\uff0c8\uff0c16\uff0c10\u8fdb\u5236\u76f4\u63a5\u600e\u4e48\u8f6c\u6362\uff1f\n     2\uff0c8\uff0c16 =>\u7b49\u4f4d\u8f6c\u5316\n    10=>any  \u6574\u6570\u90e8\u5206\u62fc\u51d1\u6cd5\uff0c\u5c0f\u6570\u90e8\u5206\u4e58\u6cd5\uff0c\u5c0f\u6570\u90e8\u5206\u53ef\u80fd\u51fa\u73b0\u65e0\u9650\u5faa\u73af\n3. \u771f\u503c\u4e0e\u673a\u5668\u7801",
-    "date": "2023-10-7",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "WenChang"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "CO"
-    ],
-    "uuid": "7c362ea8-c316-4b44-a130-50052ae5e007"
-  },
-  {
-    "slot": "8:25-10:40",
-    "detail": "\u4e60\u9898\n\u57fa\u7840\u90e8\u5206\n\u5bfc\u65704/4",
-    "date": "2023-10-11",
-    "target": [
-      "Math-1800"
-    ],
-    "location": [
-      "Dormitory"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "Calculus"
-    ],
-    "uuid": "8197ae4a-5fc9-440a-9bec-108592ebecaf"
-  },
-  {
-    "slot": "9\uff1a55-10\uff1a40",
-    "detail": "\u4e60\u9898\n\u5fae\u79ef\u5206\u57fa\u7840\n\u5bfc\u6570\u90e8\u5206\n2/4",
-    "date": "2023-10-9",
-    "target": [
-      "Math-1800"
-    ],
-    "location": [
-      "Classroom"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "Calculus"
-    ],
-    "uuid": "95297f19-b9c7-49b2-a6ac-92a623f37e5a"
-  },
-  {
     "slot": "17:40-18:10",
     "detail": "\u53e3\u8bed\u7ec3\u4e60\nGPT4\u5bf9\u8bdd",
     "date": "2023-10-17",
@@ -1105,24 +978,6 @@
       "English"
     ],
     "uuid": "5c05f7dc-3db3-422a-8817-7a6279e4be79"
-  },
-  {
-    "slot": "18\uff1a45-20:20",
-    "detail": "\u7b2c\u4e8c\u7ae0\n\u5b9a\u70b9\u6570\u7684\u6570\u7684\u52a0\u51cf\u8fd0\u7b97\n\u7f51\u8bfe+\u8349\u7a3f+\u7b14\u8bb0",
-    "date": "2023-10-17",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "WenChang"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "CO"
-    ],
-    "uuid": "94cba70c-27c0-47e0-a846-d5ddd6b66de2"
   },
   {
     "slot": "20:40-21:10",
@@ -1193,6 +1048,96 @@
     "uuid": "3c941fa9-c422-4e26-981b-a40eeb72e197"
   },
   {
+    "slot": "8:25-10:40",
+    "detail": "\u5bfc\u6570\n\u57fa\u7840\u7ec3\u4e60\n4/4\u2705",
+    "date": "2023-10-11",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ],
+    "uuid": "8197ae4a-5fc9-440a-9bec-108592ebecaf"
+  },
+  {
+    "slot": "18\uff1a45-20:20",
+    "detail": "\u7b2c\u4e8c\u7ae0\n\u5b9a\u70b9\u6570\u7684\u6570\u7684\u52a0\u51cf\u8fd0\u7b97\n\u7f51\u8bfe+\u8349\u7a3f+\u7b14\u8bb0",
+    "date": "2023-10-17",
+    "target": [
+      "CO"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "94cba70c-27c0-47e0-a846-d5ddd6b66de2"
+  },
+  {
+    "slot": "9:55-11:30",
+    "detail": "\u4e60\u9898\n\u6808\u7684\u9009\u62e9\u9898\n\u987a\u5f0f\u5b58\u50a8\u7ebf\u6027\u8868\u7b97\u6cd5\u9898+2",
+    "date": "2023-10-17",
+    "target": [
+      "DS"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "d1e36b23-4baa-4e63-a506-8f399d363f77"
+  },
+  {
+    "slot": "14\uff1a35-15:20",
+    "detail": "\u65f6\u95f4\u590d\u6742\u5ea6+\u7ebf\u6027\u8868\n\u8bfe\u540e\u4e60\u9898 \u2705",
+    "date": "2023-10-11",
+    "target": [
+      "DS"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "78b470e9-6d0c-4654-93ef-429c68736fd9"
+  },
+  {
+    "slot": "19:45-20:30",
+    "detail": "\u7b2c\u4e8c\u7ae0 \u6570\u636e\u7684\u8868\u793a\u548c\u8fd0\u7b97\n2.1\u6570\u5236 \u4e0e\u7f16\u7801\n\u56f4\u7ed5\u51e0\u4e2a\u95ee\u9898\u5c55\u5f00\n1. \u600e\u4e48\u6765\u8868\u793a\u6570\uff1f\n2. 2\uff0c8\uff0c16\uff0c10\u8fdb\u5236\u76f4\u63a5\u600e\u4e48\u8f6c\u6362\uff1f\n     2\uff0c8\uff0c16 =>\u7b49\u4f4d\u8f6c\u5316\n    10=>any  \u6574\u6570\u90e8\u5206\u62fc\u51d1\u6cd5\uff0c\u5c0f\u6570\u90e8\u5206\u4e58\u6cd5\uff0c\u5c0f\u6570\u90e8\u5206\u53ef\u80fd\u51fa\u73b0\u65e0\u9650\u5faa\u73af\n3. \u771f\u503c\u4e0e\u673a\u5668\u7801",
+    "date": "2023-10-7",
+    "target": [
+      "CO"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "7c362ea8-c316-4b44-a130-50052ae5e007"
+  },
+  {
     "slot": "8:30-9:33",
     "detail": "\u4e2d\u503c\u5b9a\u7406\u4e0e\u4e00\u5143\u51fd\u6570\u5fae\u5206\u5b66\u7684\u5e94\u7528 \n\u5165\u95e8\u7ec3\u4e60 4/4\u2705",
     "date": "2023-10-18",
@@ -1247,24 +1192,6 @@
     "uuid": "bde1a9da-8cf2-4f35-86ed-82144e8983fa"
   },
   {
-    "slot": "18:00-18:30",
-    "detail": "\u4e2d\u503c\u5b9a\u7406\u53ca\u4e00\u5143\u5fae\u5206\u7684\u5e94\u7528\n\u5165\u95e8\u7ec3\u4e60\n\u8ba2\u6b63 1/2",
-    "date": "2023-10-18",
-    "target": [
-      "Math-1800"
-    ],
-    "location": [
-      "WenChang"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "Calculus"
-    ],
-    "uuid": "c30a9384-87cf-424a-a281-d6746d9a0c73"
-  },
-  {
     "slot": "20:00-21:00",
     "detail": "50/175",
     "date": "2023-10-18",
@@ -1315,60 +1242,6 @@
     "uuid": "11949837-d57d-49da-b2d9-3df038d80ba5"
   },
   {
-    "slot": "8:00-10:40",
-    "detail": "\u961f\u5217\n\u77e5\u8bc6\u70b9\u7406\u89e3\u2705\n\u8bfe\u540e\u4f5c\u4e1a 3/4",
-    "date": "2023-10-19",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "Classroom"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "DS"
-    ],
-    "uuid": "54a23790-f786-4fc0-b6bd-0a717b22321e"
-  },
-  {
-    "slot": "10:10-10:40",
-    "detail": "\u961f\u5217\n\u8bfe\u540e\u4f5c\u4e1a \u2705",
-    "date": "2023-10-19",
-    "target": [
-      "CS-408"
-    ],
-    "location": [
-      "WenChang"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "DS"
-    ],
-    "uuid": "fcf41d40-46f1-43bd-a200-680db41f547e"
-  },
-  {
-    "slot": "16:00-17:06",
-    "detail": "\u4e2d\u503c\u5b9a\u7406\u4e0e\u4e00\u5143\u51fd\u6570\u7684\u5fae\u5206\u5e94\u7528\n\u8ba2\u6b63\u270d\ufe0f",
-    "date": "2023-10-19",
-    "target": [
-      "Math-1800"
-    ],
-    "location": [
-      "WenChang"
-    ],
-    "category": [
-      "Postgraduate"
-    ],
-    "task": [
-      "Calculus"
-    ],
-    "uuid": "05af45af-5512-4e29-914d-0593c6ffaa2e"
-  },
-  {
     "slot": "18:00-19:10",
     "detail": "\u4f7f\u7528vuexy9.0ui\u6a21\u677f\n\u8fc1\u79fb\u5e94\u7528\u81f3starter-kit\n\n",
     "date": "2023-10-19",
@@ -1387,11 +1260,77 @@
     "uuid": "2ff662f4-e5b9-43a0-943f-fd6cc03898e9"
   },
   {
-    "slot": "19:40-21:40",
-    "detail": "\u7f51\u8bfe+\u7b14\u8bb0\n\u65e0\u7b26\u53f7\u6570\u7684\u52a0\u51cf\u8fd0\u7b97\u2705\n\u8865\u7801\u7684\u52a0\u51cf\u8fd0\u7b97\u7535\u8def\u2705\n\u539f\u7801\u7684\u4e58\u6cd5\u8fd0\u7b97\u53ca\u5176\u7535\u8def\u2705",
-    "date": "2023-10-19",
+    "slot": "8:00",
+    "detail": "",
+    "date": "2023-10-23",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "get-up"
+    ],
+    "uuid": "eb618615-3057-46ad-979f-d30445049d99"
+  },
+  {
+    "slot": "9:00-9:-45",
+    "detail": "\u4fee\u6b63task.js\u7684\u4e00\u4e9b\u5c0fbug",
+    "date": "2023-10-23",
     "target": [
-      "CS-408"
+      "work-space"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "CS"
+    ],
+    "task": [
+      "Coding"
+    ],
+    "uuid": "8bb02091-320c-4a97-b9c6-03a0893c2e14"
+  },
+  {
+    "slot": "0:45",
+    "detail": "",
+    "date": "2023-10-23",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ],
+    "uuid": "cf70ee4d-b659-46a1-8bcb-79dc9ab77b2f"
+  },
+  {
+    "slot": "9:00-21:00",
+    "detail": "",
+    "date": "2023-10-22",
+    "target": [],
+    "location": [
+      "Home"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "back-home"
+    ],
+    "uuid": "828c5cf0-bd90-4854-9588-089394eb33e6"
+  },
+  {
+    "slot": "12:00-13:32",
+    "detail": "\u641c\u7d22\u76f8\u5173kaggle\u5b66\u4e60\u8d44\u6599",
+    "date": "2023-10-23",
+    "target": [
+      "search-info"
     ],
     "location": [
       "WenChang"
@@ -1400,26 +1339,241 @@
       "Postgraduate"
     ],
     "task": [
-      "DS"
+      "kaggle"
     ],
-    "uuid": "707dbc97-597a-409c-880c-820cd4512945"
+    "uuid": "ebc99348-6e9f-45a5-a8f2-3055ac5e6b72"
   },
   {
-    "slot": "12:00",
-    "detail": "",
-    "date": "2023-10-22",
+    "slot": "16:00-17:06",
+    "detail": "\u4e2d\u503c\u5b9a\u7406\u4e0e\u4e00\u5143\u51fd\u6570\u7684\u5fae\u5206\u5e94\u7528\n\u5165\u95e8\u7ec3\u4e60\n\u8ba2\u6b633/5\u270d\ufe0f ",
+    "date": "2023-10-19",
     "target": [
-      "leetcode"
+      "Math-1800"
     ],
     "location": [
-      "Home"
+      "WenChang"
     ],
     "category": [
-      "PE"
+      "Postgraduate"
     ],
     "task": [
       "Calculus"
     ],
-    "uuid": "c039e318-a733-4f5d-9500-d4d29895df5e"
+    "uuid": "05af45af-5512-4e29-914d-0593c6ffaa2e"
+  },
+  {
+    "slot": "9:50-11:12",
+    "detail": "\u4e2d\u503c\u5b9a\u7406\u4e0e\u4e00\u5143\u51fd\u6570\u7684\u5fae\u5206\u5e94\u7528\n\u5165\u95e8\u7ec3\u4e60\n\u8ba2\u6b634/5\u270d\ufe0f",
+    "date": "2023-10-23",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ],
+    "uuid": "eb5e375a-5b6b-4a66-b8ed-1e12dc34279b"
+  },
+  {
+    "slot": "18:00-18:30",
+    "detail": "\u4e2d\u503c\u5b9a\u7406\u53ca\u4e00\u5143\u5fae\u5206\u7684\u5e94\u7528\n\u5165\u95e8\u7ec3\u4e60\n\u8ba2\u6b63 1/2 \u270d\ufe0f",
+    "date": "2023-10-18",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ],
+    "uuid": "c30a9384-87cf-424a-a281-d6746d9a0c73"
+  },
+  {
+    "slot": "15:40-16:25",
+    "detail": "\u4e2d\u503c\u5b9a\u7406\u4e0e\u4e00\u5143\u51fd\u6570\u7684\u5fae\u5206\u5e94\u7528\n\u5165\u95e8\u7ec3\u4e60\n\u8ba2\u6b635/5\u2705",
+    "date": "2023-10-23",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ],
+    "uuid": "58d32d11-871e-4b3a-a42d-578dbd4c6ecd"
+  },
+  {
+    "slot": "9\uff1a55-10\uff1a40",
+    "detail": "\u5bfc\u6570\n\u57fa\u7840\u7ec3\u4e60\n2/4\u270d\ufe0f",
+    "date": "2023-10-9",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ],
+    "uuid": "95297f19-b9c7-49b2-a6ac-92a623f37e5a"
+  },
+  {
+    "slot": "13:40-17:00",
+    "detail": "\u5bfc\u6570\n\u57fa\u7840\u7ec3\u4e60\n3/4\u2705",
+    "date": "2023-10-9",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "Classroom",
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ],
+    "uuid": "b4668317-4677-42fa-b344-eb115cd48a2b"
+  },
+  {
+    "slot": "16:30-17:25",
+    "detail": "\u4e2d\u503c\u5b9a\u7406\u4e0e\u4e00\u5143\u51fd\u6570\u7684\u5fae\u5206\u5e94\u7528\n\u57fa\u7840\u7ec3\u4e60\n9/37\u270d\ufe0f",
+    "date": "2023-10-23",
+    "target": [
+      "Math-1800"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "Calculus"
+    ],
+    "uuid": "07ff327a-4d10-492f-b8f6-a15acd9a5ab3"
+  },
+  {
+    "slot": "8:00-10:40",
+    "detail": "\u961f\u5217\n\u77e5\u8bc6\u70b9\u7406\u89e3\u2705\n\u8bfe\u540e\u4f5c\u4e1a 3/4",
+    "date": "2023-10-19",
+    "target": [
+      "DS"
+    ],
+    "location": [
+      "Classroom"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "54a23790-f786-4fc0-b6bd-0a717b22321e"
+  },
+  {
+    "slot": "20:00-20:45",
+    "detail": "\u7b2c\u4e8c\u7ae0\n\u539f\u7801\u7684\u9664\u6cd5\u8fd0\u7b97\n\u7f51\u8bfe \ud83d\ude35\u200d\ud83d\udcab",
+    "date": "2023-10-23",
+    "target": [
+      "CO"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "48cd0c39-6fa8-4746-9d62-506e47f3ef92"
+  },
+  {
+    "slot": "10:10-10:40",
+    "detail": "\u9009\u62e9\u9898\n\u961f\u5217\u2705",
+    "date": "2023-10-19",
+    "target": [
+      "DS"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "fcf41d40-46f1-43bd-a200-680db41f547e"
+  },
+  {
+    "slot": "19:40-21:40",
+    "detail": "\u7f51\u8bfe+\u7b14\u8bb0\n\u65e0\u7b26\u53f7\u6570\u7684\u52a0\u51cf\u8fd0\u7b97\u2705\n\u8865\u7801\u7684\u52a0\u51cf\u8fd0\u7b97\u7535\u8def\u2705\n\u539f\u7801\u7684\u4e58\u6cd5\u8fd0\u7b97\u53ca\u5176\u7535\u8def\u2705",
+    "date": "2023-10-19",
+    "target": [
+      "CO"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "707dbc97-597a-409c-880c-820cd4512945"
+  },
+  {
+    "slot": "19:45-21:00",
+    "detail": "\u7f51\u8bfe\n\u590d\u4e60ALU\n\u65b0\u5b66 \u5b9a\u70b9\u6570\u7684\u79fb\u4f4d\n\u5e76\u5b8c\u6210\u76f8\u5e94\u7684\u7b14\u8bb0",
+    "date": "2023-10-16",
+    "target": [
+      "CO"
+    ],
+    "location": [
+      "WenChang"
+    ],
+    "category": [
+      "Postgraduate"
+    ],
+    "task": [
+      "CS-408"
+    ],
+    "uuid": "4c942789-23ce-446f-abbe-f9f880922538"
+  },
+  {
+    "slot": "",
+    "detail": "\u5f97\u65e9\u70b9\u7761\uff0c\u592a\u56f0\u4e86\ud83d\ude2a",
+    "date": "2023-10-23",
+    "target": [],
+    "location": [
+      "Dormitory"
+    ],
+    "category": [
+      "Daily"
+    ],
+    "task": [
+      "asleep"
+    ],
+    "uuid": "ef6b82c3-eb6b-48bc-8a26-1bff25c8decf"
   }
 ]
