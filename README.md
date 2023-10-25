@@ -38,5 +38,11 @@
 1. TaskDoneManagement.js => TaskDoneManagement.ts
 2. construct backup sqlite database from supabase
 3. sync finance data from bill.csv to supabase
-4. construct finance analysis on vue 
+4. construct finance analysis on vue
 
+# Questions
+
+1. A task may take multiple times to complete, which means that only part of the progress can be completed each time.
+2. It is necessary to propose a to-do function, preferably with a reminder and a deadline.
+3. A task may be divided into multiple completion periods, or only the total time taken may be recorded, and the
+   complete period cannot be recorded.
