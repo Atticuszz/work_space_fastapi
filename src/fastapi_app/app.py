@@ -6,9 +6,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from background_tasks import fastapi_scheduler
-from src.fastapi_app.routers.consumption import router_consumption
-from src.fastapi_app.routers.task_categories import router_task_categories
-from src.fastapi_app.routers.task_done_entries import router_task_entries
+from routers import router_consumption, router_task_categories, router_task_entries
 
 
 def create_app() -> FastAPI:
@@ -58,7 +56,7 @@ async def add_test(data: dict):
 
 def server_run(debug: bool = False, port: int = 5000):
     yarn_command = ["yarn", "run", "preview"]
-    vue_path = "C:\\Users\\18317\\OneDrive\\vue\\vuexy-vuetify-vue3\\typescript-version\\starter-kit"
+    vue_path = "C:\\Users\\18317\\OneDrive\\vue\\work_space_vue"
     assert Path(vue_path).exists(), "vue_path not exists"
     subprocess.Popen(yarn_command, cwd=vue_path, shell=True)
     fastapi_scheduler.start()
