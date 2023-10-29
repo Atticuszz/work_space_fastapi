@@ -299,3 +299,12 @@ P108
 15:00-16:30,"校运动会选拔
 100M->12.74
 200M->26.8",2023-10-27,[],['playground'],['PE'],['sprint'],22e34edc-90b1-4f68-865d-aa9b9d999cf7
+8:30,睡懒觉了,2023-10-28,[],['Dormitory'],['Daily'],['get-up'],95b4a047-2cd3-4f12-9d20-1fdae6b94d74
+9:30-17:30,"尝试使用nuxt.js失败❌
+从零构建太复杂，本身专门的配置太多了，模板的搭建从零开始又很麻烦，自带的ui库感觉不是很成熟，并且他不是为了个人的，应该是为了高性能，可扩展性的，
+使用vuexy的nuxt模板，兼容性不是特别好，应该需要从原来的vue大改，但是貌似哪里改的不行，并且把我原来的代码迁移到新版的vue版本仍然出现一些组件不能正确显示❌
+因此采用原来的vuexy的vue的ts版本，并且使用axios封装一个基础的fastapiClient接口，然后分别给store中共给后端api
+pinia的store中，将后端数据更新与页面事件处理分割开来，3个watch函数检测页面触发更新数据的变量，页面部分直接是数据部分，进一步分离开，监视触发数据更新的事件点，页面逻辑是页面逻辑，后一步的任务是组件复用，组件分离",2023-10-28,['work-space'],['Dormitory'],['CS'],['Coding'],54e808f3-d142-4f28-991f-5a5ad8422d72
+19:00-22:00,"introduce to DL
+2-9notebook+homework",2023-10-28,['starter-course'],['WenChang'],['Postgraduate'],['kaggle'],d5ba1560-f858-4a0f-bff9-6fa07f4bc3d2
+19:00-22:00,test,2023-10-28,['starter-course'],['WenChang'],['Postgraduate'],['kaggle'],e5a52e1d-92e6-4468-b778-a78ea68247b7
