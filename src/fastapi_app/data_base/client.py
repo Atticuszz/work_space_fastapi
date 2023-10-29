@@ -4,10 +4,10 @@ import os
 
 from dotenv import load_dotenv
 from postgrest import APIResponse
+from supabase_py_async import create_client, AsyncClient
+from supabase_py_async.lib.client_options import ClientOptions
 
 from src.fastapi_app.dependencies.decorator import retry
-from src.supabase import create_client, AsyncClient
-from src.supabase.lib.client_options import ClientOptions
 
 load_dotenv()
 
