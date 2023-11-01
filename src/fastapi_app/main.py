@@ -46,12 +46,12 @@ app = create_app()
 
 @app.on_event("startup")
 async def set_up():
-    pass
+    fastapi_scheduler.start()
 
 
-@app.post("/add_test")
-async def add_test(data: dict):
-    pass
+@app.on_event("shutdown")
+async def tear_down():
+    fastapi_scheduler.shutdown()
 
 
 def server_run(debug: bool = False, port: int = 5000):
@@ -59,8 +59,6 @@ def server_run(debug: bool = False, port: int = 5000):
     vue_path = "C:\\Users\\18317\\OneDrive\\vue\\work_space_vue"
     assert Path(vue_path).exists(), "vue_path not exists"
     subprocess.Popen(yarn_command, cwd=vue_path, shell=True)
-    fastapi_scheduler.start()
-
     if not debug:
         # Run FastAPI with reload
 

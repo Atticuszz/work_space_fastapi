@@ -39,6 +39,7 @@
 2. construct backup sqlite database from supabase
 3. sync finance data from bill.csv to supabase
 4. construct finance analysis on vue
+5. scrapy to get alipay bill
 
 # Questions
 

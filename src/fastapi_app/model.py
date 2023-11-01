@@ -12,4 +12,4 @@ class TaskDoneEntry(BaseModel):
     slot: str
     location: list[str]
 
-# TODO: slot TO TIME
+# TODO: transform to unix time

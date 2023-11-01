@@ -59,6 +59,6 @@ fastapi_scheduler.add_job(
     func=sync_back_up,
     trigger=IntervalTrigger(minutes=10),
     id='backup_job',
-    name='Backup Supabase data every 5 minutes',
+    name='Backup Supabase data every 10 minutes',
     replace_existing=True
 )

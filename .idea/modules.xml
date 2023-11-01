@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/work_space_fastapi.iml" filepath="$PROJECT_DIR$/.idea/work_space_fastapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../vue/work_space_vue/.idea/work_space_vue.iml" filepath="$PROJECT_DIR$/../../vue/work_space_vue/.idea/work_space_vue.iml" />
     </modules>
   </component>
 </project>
