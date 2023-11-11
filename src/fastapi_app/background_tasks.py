@@ -5,7 +5,7 @@ from pathlib import Path
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.interval import IntervalTrigger
 
-from data_base import supabase_client
+from .data_base import supabase_client
 
 __all__ = ["fastapi_scheduler"]
 

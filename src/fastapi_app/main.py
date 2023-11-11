@@ -5,23 +5,20 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from background_tasks import fastapi_scheduler
-from routers import router_consumption, router_task_categories, router_task_entries
+from .background_tasks import fastapi_scheduler
+from .routers import router_consumption, router_task_categories, router_task_entries
 
 
 def create_app() -> FastAPI:
     # 初始化 FastAPI 和 StrapiClient
     app = FastAPI()
-    # 设置 CORS
+    # 配置 CORS
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=[
-            "http://localhost:5173",
-            "http://localhost:1337",
-            "http://localhost:5050", ],
+        allow_origins=["*"],  # 允许所有源
         allow_credentials=True,
-        allow_methods=["*"],
-        allow_headers=["*"],
+        allow_methods=["*"],  # 允许所有方法
+        allow_headers=["*"],  # 允许所有头部
     )
 
     # Include the routers

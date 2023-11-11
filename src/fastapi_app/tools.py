@@ -1,6 +1,4 @@
 # coding=utf-8
-# coding=utf-8
-# 导入所需的库
 
 __all__ = ["del_blank", "entries_sort_key"]
 

@@ -1,0 +1,17 @@
+version: '1.0'
+services:
+  fastapi-backend:
+    build:
+      context: C:/Users/18317/OneDrive/python/work_space_fastapi
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+
+  vue-frontend:
+    build:
+      context: C:/Users/18317/OneDrive/vue/work_space_vue
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    environment:
+      - VUE_APP_FASTAPI_URL=http://fastapi-backend:5000

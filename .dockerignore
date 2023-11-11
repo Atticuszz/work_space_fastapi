@@ -1,0 +1,11 @@
+tests/
+src/metabase/
+
+
+# VCS
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
