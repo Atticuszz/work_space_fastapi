@@ -72,7 +72,7 @@ def start_metabase(port: int = 3008):
         if return_code != 0:
             print(f"Metabase failed to start. Return code: {return_code}")
         else:
-            print("启动 Metabase 成功: http://localhost:3008")
+            print("启动 Metabase 成功: http://localhost:3010")
     except FileNotFoundError:
         print("系统找不到指定的文件。请确保 Java 已经安装并且可在命令行中运行。")
     except Exception as e:
@@ -83,5 +83,5 @@ def start_metabase(port: int = 3008):
 
 
 if __name__ == "__main__":
-    start_metabase(3008)
+    start_metabase(3010)
     # reset_password("zhouge1831@gmail")
