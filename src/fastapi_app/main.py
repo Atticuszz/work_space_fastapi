@@ -5,7 +5,6 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .background_tasks import fastapi_scheduler
 from .routers import router_consumption, router_task_categories, router_task_entries
 
 
@@ -43,13 +42,14 @@ app = create_app()
 
 @app.on_event("startup")
 async def set_up():
-    fastapi_scheduler.start()
+    # fastapi_scheduler.start()
+    pass
 
 
 @app.on_event("shutdown")
 async def tear_down():
-    fastapi_scheduler.shutdown()
-
+    # fastapi_scheduler.shutdown()
+    pass
 
 def server_run(debug: bool = False, port: int = 5000):
     yarn_command = ["yarn", "run", "preview"]
