@@ -5,7 +5,7 @@ WORKDIR /app
 
 RUN pip install poetry
 
-COPY  pyproject.toml /app/
+COPY poetry.lock  pyproject.toml /app/
 
 # 安装依赖，忽略项目本身
 RUN poetry config virtualenvs.create false \
