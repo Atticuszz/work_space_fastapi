@@ -1,23 +1,24 @@
-# 第一阶段：使用 Poetry 导出 requirements.txt
-FROM python:3.11-rc-slim as requirements-stage
+# 第一阶段：使用 Poetry 安装依赖
+FROM python:3.11-rc-slim as builder
 
-WORKDIR /tmp
+WORKDIR /app
 
 RUN pip install poetry
 
-COPY poetry.lock pyproject.toml /tmp/
+COPY  pyproject.toml /app/
 
-RUN poetry export -f requirements.txt --output requirements.txt --without-hashes
+# 安装依赖，忽略项目本身
+RUN poetry config virtualenvs.create false \
+    && poetry install --no-dev --no-root
 
 # 第二阶段：构建最终镜像
 FROM python:3.11-rc-slim
 
 WORKDIR /app
 
-# 仅复制 requirements.txt 并安装依赖
-COPY --from=requirements-stage /tmp/requirements.txt /app/
-
-RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
+# 从 builder 阶段复制安装好的依赖
+COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
+COPY --from=builder /usr/local/bin /usr/local/bin
 
 # 复制整个项目到容器中
 COPY . /app
