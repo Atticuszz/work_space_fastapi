@@ -6,7 +6,7 @@ WORKDIR /app
 RUN pip install poetry
 
 COPY poetry.lock  pyproject.toml /app/
-
+# TODO: login docker register plugin
 # 安装依赖，忽略项目本身
 RUN poetry config virtualenvs.create false \
     && poetry install --no-dev --no-root
