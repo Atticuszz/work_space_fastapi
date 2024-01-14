@@ -5,6 +5,7 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from src.fastapi_app.data_base import supabase_client
 from .routers import router_consumption, router_task_categories, router_task_entries
 
 
@@ -43,7 +44,7 @@ app = create_app()
 @app.on_event("startup")
 async def set_up():
     # fastapi_scheduler.start()
-    pass
+    supabase_client.create()
 
 
 @app.on_event("shutdown")

@@ -13,9 +13,13 @@ load_dotenv()
 
 
 class SupaBase:
-    def __init__(self, url: str = os.getenv("SUPABASE_URL"),
-                 key: str = os.getenv("SUPABASE_KEY")):
-        self.client: AsyncClient = create_client(
+    def __init__(self):
+        self.client: AsyncClient|None = None
+
+    async def create(self):
+        url: str = os.getenv("SUPABASE_URL")
+        key: str = os.getenv("SUPABASE_KEY")
+        self.client = create_client(
             url, key, options=ClientOptions(
                 postgrest_client_timeout=10, storage_client_timeout=10))
 
