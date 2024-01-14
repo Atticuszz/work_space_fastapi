@@ -19,7 +19,7 @@ class SupaBase:
     async def create(self):
         url: str = os.getenv("SUPABASE_URL")
         key: str = os.getenv("SUPABASE_KEY")
-        self.client = create_client(
+        self.client = await create_client(
             url, key, options=ClientOptions(
                 postgrest_client_timeout=10, storage_client_timeout=10))
 

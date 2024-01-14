@@ -44,7 +44,7 @@ app = create_app()
 @app.on_event("startup")
 async def set_up():
     # fastapi_scheduler.start()
-    supabase_client.create()
+    await supabase_client.create()
 
 
 @app.on_event("shutdown")
