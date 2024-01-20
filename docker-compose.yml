@@ -1,17 +1,26 @@
-version: '1.0'
+version: '3.8'
+
 services:
-  fastapi-backend:
-    build:
-      context: C:/Users/18317/OneDrive/python/work_space_fastapi
-      dockerfile: Dockerfile
+  shadowsocksr:
+    image: teddysun/shadowsocks-r:latest
+    container_name: ssr
+    restart: always
+    ports:
+      - "9000:9000"
+      - "9000:9000/udp"
+    volumes:
+      - /etc/shadowsocks-r:/etc/shadowsocks-r
+  workspace_backend:
+    image: atticuszhou/work-space-fastapi-backend:latest
     ports:
       - "5000:5000"
-
-  vue-frontend:
-    build:
-      context: C:/Users/18317/OneDrive/vue/work_space_vue
-      dockerfile: Dockerfile
+    environment:
+      - PORT=5000
+    restart: always
+  workspace_frontend:
+    image: atticuszhou/work-space-vue-frontend:latest
     ports:
       - "80:80"
     environment:
-      - VUE_APP_FASTAPI_URL=http://fastapi-backend:5000
+      - VITE_FASTAPI_DOMAIN=${VITE_FASTAPI_DOMAIN}
+    restart: always
