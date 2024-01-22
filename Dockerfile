@@ -26,8 +26,9 @@ COPY . /app
 # 设置环境变量
 ENV PORT=5000
 
-# 暴露端口
-EXPOSE 5000
+## 暴露端口
+#EXPOSE 5000
+# handled by canndy
 
 # 运行 FastAPI 应用
 CMD ["uvicorn", "src.fastapi_app.main:app", "--host", "0.0.0.0", "--port", "5000"]
