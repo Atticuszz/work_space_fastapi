@@ -1,0 +1,12 @@
+atticuszhou.xyz {
+    # 反向代理 API 请求
+    reverse_proxy /api/* workspace_backend:5000
+
+    # 处理所有其他请求
+    root * /usr/share/caddy
+    file_server
+    try_files {path} /index.html
+
+    # 配置 TLS
+    tls /etc/letsencrypt/live/atticuszhou.xyz/fullchain.pem /etc/letsencrypt/live/atticuszhou.xyz/privkey.pem
+}

@@ -24,15 +24,15 @@ def create_app() -> FastAPI:
     # Include the routers
     app.include_router(
         router_task_entries,
-        prefix="/task_entries",
+        prefix="api/task_entries",
         tags=["task_entries"])
     app.include_router(
         router_task_categories,
-        prefix="/task_categories",
+        prefix="api/task_categories",
         tags=["task_categories"])
     app.include_router(
         router_consumption,
-        prefix="/consumption",
+        prefix="api/consumption",
         tags=["consumption"]
     )
     return app
