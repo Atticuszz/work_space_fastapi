@@ -12,7 +12,7 @@ from .routers import router_consumption, router_task_categories, router_task_ent
 def create_app() -> FastAPI:
     # 初始化 FastAPI 和 StrapiClient
     app = FastAPI(
-        openapi_prefix="/api",
+        root_path="/api",
     )
     # 配置 CORS
     app.add_middleware(
@@ -26,15 +26,15 @@ def create_app() -> FastAPI:
     # Include the routers
     app.include_router(
         router_task_entries,
-        prefix="/api/task_entries",
+        prefix="/task_entries",
         tags=["task_entries"])
     app.include_router(
         router_task_categories,
-        prefix="/api/task_categories",
+        prefix="/task_categories",
         tags=["task_categories"])
     app.include_router(
         router_consumption,
-        prefix="/api/consumption",
+        prefix="/consumption",
         tags=["consumption"]
     )
     return app

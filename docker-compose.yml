@@ -1,18 +1,19 @@
 version: '3.8'
 
 services:
-  workspace_backend:
+  backend:
     image: atticuszhou/work-space-fastapi-backend:latest
     environment:
-      - PORT=5000
+      PORT: 5000
     restart: always
 
-  workspace_frontend:
+  frontend:
     image: atticuszhou/work-space-vue-frontend:latest
     volumes:
       - vue_static_files:/app/dist
     environment:
-      - VITE_FASTAPI_DOMAIN=${VITE_FASTAPI_DOMAIN}
+      VITE_FASTAPI_DOMAIN: ${VITE_FASTAPI_DOMAIN}
+
     restart: always
 
   caddy:
@@ -27,11 +28,11 @@ services:
       - caddy_data:/data
       - caddy_config:/config
     environment:
-      - DOMAIN=${DOMAIN}
-      - BACKEND_SERVICE=workspace_backend:5000
+      DOMAIN: ${DOMAIN}
+      BACKEND_SERVICE: backend:5000
     depends_on:
-      - workspace_backend
-      - workspace_frontend
+      - backend
+      - frontend
 
 volumes:
   caddy_data:
